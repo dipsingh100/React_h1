@@ -1,12 +1,12 @@
 import "./App.css";
 import FunctionComponent from "./components/FunctionComponent";
-import ClassComponent from "./components/ClassCoponent";
+import ClassComponent from "./components/ClassComponent";
 import { useState } from "react";
 
 function App() {
   let [left, setLeft] = useState(0);
   let [right, setRight] = useState(0);
-  
+
   return (
     <div>
       <h1 className="heading">Styling using Functional and Class Component</h1>
